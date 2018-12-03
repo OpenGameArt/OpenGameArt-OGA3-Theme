@@ -2,14 +2,24 @@ pure-css:
  css:
   theme:
    css/pure.css/pure-1.0.0.css: {}
+   css/pure.css/base.css: {}
+   css/pure.css/forms.css: {}
+   css/pure.css/tables.css: {}
+   css/pure.css/buttons.css: {}
+   css/pure.css/grids-responsive.css: {}
+   css/pure.css/menus.css: {}
 
 howler-js:
  js:
   js/howler.js/howler.core-2.0.15.js: {}
 
 oga:
+ css:
+  theme:
+   css/oga3/topbar.css: {}
  js:
   js/oga3/player.js: {}
+  js/oga3/topbar.js: {}
  dependencies:
   - core/jquery
   - core/drupal.ajax
