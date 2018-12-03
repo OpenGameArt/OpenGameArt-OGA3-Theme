@@ -1,0 +1,18 @@
+pure-css:
+ css:
+  theme:
+   css/pure.css/pure-1.0.0.css: {}
+
+howler-js:
+ js:
+  js/howler.js/howler.core-2.0.15.js: {}
+
+oga:
+ js:
+  js/oga3/player.js: {}
+ dependencies:
+  - core/jquery
+  - core/drupal.ajax
+  - core/drupal
+  - core/drupalSettings
+  - core/jquery.once
