@@ -11,7 +11,7 @@
       }
       
       .custom-wrapper.open {
-          height: 14em;
+          height: 18em;
       }
       
       .custom-menu-3 {
@@ -72,7 +72,10 @@
           .custom-toggle {
               display: block;
           }
-      
+#menu { display: flex; flex-direction: column; }
+#block-oga3-main-menu { order: 2; }
+#block-middlesearch { order: 1; }
+#block-menulogin { order: 3; }
       }
 
 .pure-menu-link,
@@ -86,15 +89,12 @@
     background-color: #444;
 
 }
-
-.pure-u-md-1-3 {
-    width: 33%;
-}
-
+@media (min-width: 47.999em) {
 .align-center {
 text-align:center;
 }
 
 .align-right {
 text-align:right;
+}
 }
