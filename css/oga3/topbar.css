@@ -28,7 +28,7 @@
       }
       
       .custom-toggle .bar {
-          background-color: #777;
+          background-color: #FFF;
           display: block;
           width: 20px;
           height: 2px;
@@ -64,7 +64,8 @@
       }
       
       @media (max-width: 47.999em) {
-      
+
+#brandmenu{display:none;}      
           .custom-menu-3 {
               text-align: left;
           }
@@ -90,6 +91,22 @@
 
 }
 @media (min-width: 47.999em) {
+
+#edit-keys--2, #edit-submit--3 {
+height: 1.7em;
+}
+#edit-submit, #edit-name, #edit-pass {
+top: -0.3em;
+position: relative;
+height: 1.8em;
+}
+#edit-submit {
+margin-right: .3em;
+}
+
+.pure-menu-link{
+font-weight: bold;
+}
 .align-center {
 text-align:center;
 }
@@ -98,3 +115,22 @@ text-align:center;
 text-align:right;
 }
 }
+
+#brandmenu {
+margin-bottom: 0;
+}
+.sara {
+position: absolute;
+}
+#maintitle {
+background-image: url("http://199.180.155.219/themes/custom/oga3/images/title.png");
+
+width: 409px;
+
+height: 31px;
+
+position: absolute;
+
+margin-left: 3em;
+}
+
