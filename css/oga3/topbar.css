@@ -86,3 +86,15 @@
     background-color: #444;
 
 }
+
+.pure-u-md-1-3 {
+    width: 33%;
+}
+
+.align-center {
+text-align:center;
+}
+
+.align-right {
+text-align:right;
+}

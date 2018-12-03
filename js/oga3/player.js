@@ -125,10 +125,12 @@ Player.prototype = {
 };
 var index;
 var player = [];
-for (index = 0; index < test.length; ++index) {
-  // Bind our player controls
-  player[test[index].id] = new Player([test[index]]);
-  addevents(test[index].id, player);
+if (typeof test !== 'undefined') {
+ for (index = 0; index < test.length; ++index) {
+   // Bind our player controls
+   player[test[index].id] = new Player([test[index]]);
+   addevents(test[index].id, player);
+ }
 }
 
 function addevents(idv, player) {
