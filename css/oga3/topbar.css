@@ -1,6 +1,5 @@
       .custom-wrapper {
           background-color: #637c9d;
-          margin-bottom: 1em;
           -webkit-font-smoothing: antialiased;
           height: 2.1em;
           overflow: hidden;
@@ -91,7 +90,9 @@
 
 }
 @media (min-width: 47.999em) {
-
+#mainmenu-bar {
+margin-left: 1em;
+}
 #edit-keys--2, #edit-submit--3 {
 height: 1.7em;
 }

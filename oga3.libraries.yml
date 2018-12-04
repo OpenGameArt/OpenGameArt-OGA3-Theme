@@ -13,13 +13,21 @@ howler-js:
  js:
   js/howler.js/howler.core-2.0.15.js: {}
 
+jQuery-Marquee:
+ js:
+  js/jQuery-Marquee/jquery.marquee.js: {}
+ dependencies:
+  - core/jquery
+
 oga:
  css:
   theme:
    css/oga3/topbar.css: {}
+   css/oga3/ticker.css: {}
  js:
   js/oga3/player.js: {}
   js/oga3/topbar.js: {}
+  js/oga3/ticker.js: {}
  dependencies:
   - core/jquery
   - core/drupal.ajax

@@ -1,0 +1,22 @@
+.marquee {
+  background-color: #637c9d;
+  padding-bottom: .3em;
+  color: white;
+}
+
+.marquee-element {
+  padding-left: 2em;
+  display: inline-block;
+}
+
+.marquee-element a {
+  color: white;
+}
+
+.marquee-element a:hover {
+  color: black;
+}
+
+@media (max-width: 47.999em) {
+  .marquee {visibility: hidden;}
+}

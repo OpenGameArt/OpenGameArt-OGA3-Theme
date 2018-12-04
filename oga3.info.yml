@@ -10,6 +10,7 @@ stylesheets-remove:
 libraries:
  - oga3/pure-css
  - oga3/howler-js
+ - oga3/jQuery-Marquee
  - oga3/oga
 
 regions: 
