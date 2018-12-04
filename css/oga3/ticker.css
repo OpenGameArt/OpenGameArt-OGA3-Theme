@@ -2,6 +2,8 @@
   background-color: #637c9d;
   padding-bottom: .3em;
   color: white;
+  width: 100%;
+  overflow: hidden;
 }
 
 .marquee-element {
@@ -20,3 +22,4 @@
 @media (max-width: 47.999em) {
   .marquee {visibility: hidden;}
 }
+

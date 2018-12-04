@@ -24,10 +24,12 @@ oga:
   theme:
    css/oga3/topbar.css: {}
    css/oga3/ticker.css: {}
+   css/oga3/modal.css: {}
  js:
   js/oga3/player.js: {}
   js/oga3/topbar.js: {}
   js/oga3/ticker.js: {}
+  js/oga3/modal.js: {}
  dependencies:
   - core/jquery
   - core/drupal.ajax
