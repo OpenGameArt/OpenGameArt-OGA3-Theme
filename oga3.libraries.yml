@@ -25,6 +25,7 @@ oga:
    css/oga3/topbar.css: {}
    css/oga3/ticker.css: {}
    css/oga3/modal.css: {}
+   css/oga3/frontpage.css: {}
  js:
   js/oga3/player.js: {}
   js/oga3/topbar.js: {}
