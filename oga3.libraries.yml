@@ -22,6 +22,7 @@ jQuery-Marquee:
 oga:
  css:
   theme:
+   css/oga3/player.css: {}
    css/oga3/topbar.css: {}
    css/oga3/ticker.css: {}
    css/oga3/modal.css: {}

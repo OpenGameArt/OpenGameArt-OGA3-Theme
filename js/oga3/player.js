@@ -1,3 +1,4 @@
+;(function($){
 /*!
  *  Howler.js OpenGameArt.org Audio Player
  *  howlerjs.com
@@ -141,3 +142,4 @@ function addevents(idv, player) {
     player[idv].pause();
   });
 }
+})(jQuery);

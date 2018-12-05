@@ -30,10 +30,10 @@
           }
       }
       
-      document.getElementById('toggle').addEventListener('click', function (e) {
-          toggleMenu();
-          e.preventDefault();
-      });
+//      document.getElementById('toggle').addEventListener('click', function (e) {
+//          toggleMenu();
+//          e.preventDefault();
+//      });
       
       window.addEventListener(WINDOW_CHANGE_EVENT, closeMenu);
       })(this, this.document);

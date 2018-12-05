@@ -40,7 +40,6 @@ if (oldnews != news) {
           addClass(panel, "cd-panel--is-visible");
 }
 
-          console.log(oldnews);
         });
 		
       })(i);
