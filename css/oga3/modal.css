@@ -1,6 +1,4 @@
 .cd-btn {
-  position: relative;
-  display: inline-block;
   padding: 1em;
   background-color: #637c9d;
   color: #ffffff;
@@ -12,7 +10,7 @@
   transition: box-shadow 0.2s;
   transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
   display: inline-block;
-  position:absolute;
+  position:fixed;
   bottom:0;
   right:0;
 }
@@ -288,13 +286,15 @@
 .cd-panel__content {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 90%;
-  height: 100%;
-  padding: 5em 5%;
+  width: 97%;
+  height: 87%;
   overflow: auto;
   /* smooth scrolling on touch devices */
   -webkit-overflow-scrolling: touch;
+margin-top: 0em;
+margin-left: 1em;
+padding-top: 5em;
+padding-right: 1em;
 }
 
 .cd-panel__content p {
@@ -391,3 +391,29 @@
 }
 
 
+@media (max-width: 47.999em) {
+  .cd-btn {
+    display: none;
+  }
+  .cd-panel__header {
+    width: 100%;
+    height: 3em;
+    
+  }
+.cd-panel__header h1 {
+
+    padding-left: 1%;
+    font-size: 1em;
+    padding-top: .2em;
+}
+.cd-panel__container {
+width: 100%;
+}
+.cd-panel__content {
+padding-top: 4em;
+padding-left: 1em;
+width: 88%;
+height: 88%;
+}
+
+}
