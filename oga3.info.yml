@@ -14,9 +14,10 @@ libraries:
  - oga3/oga
 
 regions: 
- top_menu: 'Top items above menu'
- primary_menu: 'Primary Menu'
- ticker: 'Items ticker'
- slider: 'Slide out region'
- contents: 'Main content'
- footer: 'Footer'
+  content: 'Content'
+  top_menu: 'Top items above menu'
+  primary_menu: 'Primary Menu'
+  ticker: 'Items ticker'
+  slider: 'Slide out region'
+  contents: 'Main content'
+  footer: 'Footer'
