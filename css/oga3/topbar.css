@@ -3,9 +3,6 @@
           -webkit-font-smoothing: antialiased;
           height: 2.1em;
           overflow: hidden;
-          -webkit-transition: height 0.5s;
-          -moz-transition: height 0.5s;
-          -ms-transition: height 0.5s;
           transition: height 0.5s;
       }
       
@@ -35,30 +32,21 @@
           position: absolute;
           top: 18px;
           right: 7px;
-          -webkit-transition: all 0.5s;
-          -moz-transition: all 0.5s;
-          -ms-transition: all 0.5s;
           transition: all 0.5s;
       }
       
       .custom-toggle .bar:first-child {
           -webkit-transform: translateY(-6px);
-          -moz-transform: translateY(-6px);
-          -ms-transform: translateY(-6px);
           transform: translateY(-6px);
       }
       
       .custom-toggle.x .bar {
           -webkit-transform: rotate(45deg);
-          -moz-transform: rotate(45deg);
-          -ms-transform: rotate(45deg);
           transform: rotate(45deg);
       }
       
       .custom-toggle.x .bar:first-child {
           -webkit-transform: rotate(-45deg);
-          -moz-transform: rotate(-45deg);
-          -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
       }
       
